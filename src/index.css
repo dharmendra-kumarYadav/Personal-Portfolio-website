@@ -62,13 +62,7 @@ a {
 /* Responsive Navbar */
 @media (max-width: 768px) {
   .nav_bar {
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .right {
-    position: relative;
+    padding: 10px 20px; /* Reduce padding for smaller screens */
   }
 
   .menu-icon {
@@ -82,7 +76,7 @@ a {
     background-color: rgba(11, 26, 51, 0.9);
     position: absolute;
     top: 50px;
-    left: 0; /* Changed from right to left */
+    left: 0;
     z-index: 100;
   }
 
@@ -91,11 +85,10 @@ a {
   }
 
   .nav_links a {
-    padding: 10px;
-    text-align: left; /* Changed from right to left */
+    padding: 10px 20px; /* Adjust padding for smaller items */
+    text-align: left;
   }
 
-  /* Add margin-top to sections below the navbar */
   .home, .ex, .skills, .contact-icon {
     margin-top: 60px; /* Adjust this value as needed */
   }
@@ -119,7 +112,7 @@ a {
 
 .home .left {
   background-color: var(--bg-color);
-  width: 55%; /* Adjusted width */
+  width: 55%;
   text-align: center;
   padding: 30px;
   border-radius: 10px;
@@ -131,7 +124,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45%; /* Adjusted width */
+  width: 45%;
 }
 
 .home .right .img img {
@@ -197,18 +190,19 @@ a {
 }
 
 /* Skills section */
-.skills{
+.skills {
   width: 100%;
 }
 
-.skills .items{
+.skills .items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
 }
-.skills .items .item{
+
+.skills .items .item {
   width: calc(33.33%);
   background-color: black;
   margin: 20px;
@@ -219,7 +213,7 @@ a {
   box-shadow: var(--box-shadow);
 }
 
-.skills .items .item img{
+.skills .items .item img {
   width: 70px;
 }
 
@@ -257,13 +251,13 @@ a {
 @media (max-width: 992px) {
   .home {
     flex-direction: column;
-    height: auto; /* Adjust height for better layout */
-    margin-top: 100px; /* Increase margin-top to prevent overlap */
+    height: auto;
+    margin-top: 100px;
   }
 
   .home .left, .home .right .img {
     width: 100%;
-    margin-bottom: 20px; /* Add margin for spacing */
+    margin-bottom: 20px;
   }
 
   .ex-items, .skills .items .item {
