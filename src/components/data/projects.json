@@ -10,6 +10,15 @@
   {
 
     "key": 2,
+    "title": "Book Store",
+    "imageSrc": "https://img.freepik.com/free-vector/gradient-bookstore-logo_23-2149332418.jpg?w=740&t=st=1722279996~exp=1722280596~hmac=bac0716be6050454a04b643298a0a815f723495baa5e3b8e385da733e5ebf74c",
+    "description": "This is a project made with MERN stack and Tailwind css",
+    "demo": "https://github.com/dharmendra-kumarYadav/BookStore",
+    "code": "https://github.com/dharmendra-kumarYadav/BookStore"
+  },
+  {
+
+    "key": 3,
     "title": "Currency Converter",
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaKN6dUhiC6PynXc2ZwBjf5ZYD247xfJ420A&s",
     "description": "This is a project made with complete React js Tailwind css and API",
@@ -17,19 +26,11 @@
     "code": "https://github.com/dharmendra-kumarYadav/currencyConverter"
   },
   {
-    "key": 3,
+    "key": 4,
     "title": "Password generator",
     "imageSrc": "https://store-images.s-microsoft.com/image/apps.30171.9007199266390979.7e070d71-2cd2-4ee7-8198-bced0bf5ac31.25dd79c7-e6f6-40e1-92b3-eb850e43b6b5",
     "description": "This is a project made with complete React js. and Tailwind css",
     "demo": "https://password-generator-self-psi-57.vercel.app/",
     "code": "https://github.com/dharmendra-kumarYadav/PasswordGenerator"
-  },
-  {
-    "key": 4,
-    "title": "Background changer",
-    "imageSrc": "https://cdn.pixabay.com/photo/2021/03/02/01/07/cyberpunk-6061251_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://bg-changer-taupe.vercel.app/",
-    "code": "https://github.com/dharmendra-kumarYadav/bgChanger"
   }
 ]
