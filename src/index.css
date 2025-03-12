@@ -119,9 +119,7 @@ a {
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
 }
-.left{
-  margin-right: 5px;
-}
+
 .home .right .img {
   display: flex;
   justify-content: center;
