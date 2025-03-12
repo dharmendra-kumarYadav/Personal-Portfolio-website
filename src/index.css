@@ -62,7 +62,7 @@ a {
 /* Responsive Navbar */
 @media (max-width: 768px) {
   .nav_bar {
-    padding: 10px 20px; /* Reduce padding for smaller screens */
+    padding: 10px 20px;
   }
 
   .menu-icon {
@@ -85,12 +85,15 @@ a {
   }
 
   .nav_links a {
-    padding: 10px 20px; /* Adjust padding for smaller items */
+    padding: 10px 20px;
     text-align: left;
   }
 
-  .home, .ex, .skills, .contact-icon {
-    margin-top: 60px; /* Adjust this value as needed */
+  .home,
+  .ex,
+  .skills,
+  .contact-icon {
+    margin-top: 60px;
   }
 }
 
@@ -167,11 +170,15 @@ a {
 /* Experience section */
 .ex {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ex-items {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--bg-color);
   margin: 20px auto;
@@ -181,12 +188,61 @@ a {
   border-radius: 10px;
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
+  gap: 20px;
 }
 
-.ex-items .right{
+.ex-items .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ex-items .left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.ex-items .right {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+/* Responsive for Tablets */
+@media (max-width: 768px) {
+  .ex-items {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .ex-items .left img {
+    width: 150px;
+  }
+}
+
+/* Responsive for Mobile */
+@media (max-width: 480px) {
+  .ex-items {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .ex-items .left img {
+    width: 120px;
+  }
+
+  .ex-items .right h2 {
+    font-size: 1.2rem;
+  }
+
+  .ex-items .right h4,
+  .ex-items .right h5 {
+    font-size: 1rem;
+  }
 }
 
 /* Skills section */
@@ -255,12 +311,14 @@ a {
     margin-top: 100px;
   }
 
-  .home .left, .home .right .img {
+  .home .left,
+  .home .right .img {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  .ex-items, .skills .items .item {
+  .ex-items,
+  .skills .items .item {
     width: 90%;
   }
 }
