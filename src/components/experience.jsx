@@ -15,7 +15,11 @@ const Experience = () => {
                 data-aos-duration="1000"
               >
                 <div className="left">
-                  <img src={`/assets/${data.imageSrc}`} alt="image" />
+                  <img
+                    src={`/assets/${data.imageSrc}`}
+                    alt="image"
+                    width={180}
+                  />
                 </div>
                 <div className="right">
                   <h2>{data.role}</h2>

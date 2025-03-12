@@ -7,8 +7,20 @@
     "endDate": "May 2024",
     "location": "NIT Kurukshetra",
     "experiences": [
-      "Work with Dr Anoop Patel sir"
+      "Work on DEEP Learning "
     ],
     "imageSrc": "company/nitkkr.png"
+  },
+  {
+    "id": 1,
+    "role": "Software Development Intern (Backend)",
+    "organisation":"Paytm",
+    "startDate": "Jan, 2025",
+    "endDate": "Present",
+    "location": "Noida",
+    "experiences": [
+      "Working on java, SQL, AWS"
+    ],
+    "imageSrc": "company/paytm.png"
   }
 ]
