@@ -1,19 +1,6 @@
 [
   {
     "id": 1,
-    "role": "Software Development Intern (Backend)",
-    "organisation":"Paytm",
-    "startDate": "Jan, 2025",
-    "endDate": "Jun, 2025",
-    "location": "Noida",
-    "experiences": [
-      "Working on java, SQL, AWS"
-    ],
-    "imageSrc": "company/paytm.png"
-  },
-
-  {
-    "id": 2,
     "role": "Software Engineer (Backend)",
     "organisation":"Paytm",
     "startDate": "Jun, 2025",
@@ -23,6 +10,17 @@
       "Working on java, SQL, AWS"
     ],
     "imageSrc": "company/paytm.png"
+  },
+  {
+    "id": 2,
+    "role": "Software Development Intern (Backend)",
+    "organisation":"Paytm",
+    "startDate": "Jan, 2025",
+    "endDate": "Jun, 2025",
+    "location": "Noida",
+    "experiences": [
+      "Working on java, SQL, AWS"
+    ],
+    "imageSrc": "company/paytm.png"
   }
-
 ]

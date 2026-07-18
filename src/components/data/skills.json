@@ -1,5 +1,17 @@
 [
   {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/C++-Logo.wine.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -20,16 +32,39 @@
     "imageSrc": "skills/node.png"
   },
   {
-    "title":"Express",
-    "imageSrc":"skills/express.png"
+    "title": "Express",
+    "imageSrc": "skills/express.png"
   },
-
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
   {
-    "title": "SQL",
-    "imageSrc": "skills/sql.png"
+    "title": "Redis",
+    "imageSrc": "skills/redis.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "ElasticSearch",
+    "imageSrc": "skills/elasticsearch.png"
+  },
+  {
+    "title": "OpenSearch",
+    "imageSrc": "skills/opensearch.png"
+  },
+  {
+    "title": "Kibana",
+    "imageSrc": "skills/kibana.png"
+  },
+  {
+    "title": "Grafana",
+    "imageSrc": "skills/grafana.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
   }
 ]
