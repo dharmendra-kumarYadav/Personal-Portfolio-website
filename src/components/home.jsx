@@ -31,7 +31,7 @@ const Home = () => {
 
         </h1>
         <a
-          href="/assets/pdf/final_resume.pdf"
+          href="/assets/pdf/Resume.pdf"
           download="Resume.pdf"
           className="btn btn-outline-warning"
         >
