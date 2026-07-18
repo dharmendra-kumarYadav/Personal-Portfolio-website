@@ -1,21 +1,22 @@
 [
   {
     "id": 1,
-    "role": "AI Music Generation",
-    "organisation": "College Intern Project",
-    "startDate": "Jan, 2024",
-    "endDate": "May 2024",
-    "location": "NIT Kurukshetra",
-    "experiences": [
-      "Work on DEEP Learning "
-    ],
-    "imageSrc": "company/nitkkr.png"
-  },
-  {
-    "id": 1,
     "role": "Software Development Intern (Backend)",
     "organisation":"Paytm",
     "startDate": "Jan, 2025",
+    "endDate": "Jun, 2025",
+    "location": "Noida",
+    "experiences": [
+      "Working on java, SQL, AWS"
+    ],
+    "imageSrc": "company/paytm.png"
+  },
+
+  {
+    "id": 2,
+    "role": "Software Engineer (Backend)",
+    "organisation":"Paytm",
+    "startDate": "Jun, 2025",
     "endDate": "Present",
     "location": "Noida",
     "experiences": [
@@ -23,4 +24,5 @@
     ],
     "imageSrc": "company/paytm.png"
   }
+
 ]
